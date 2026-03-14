@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Unnoz | Personal Portfolio</title>
+	<meta
+		name="description"
+		content="Modern personal portfolio for Unnoz featuring work, skills, and contact details."
+	>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+		rel="stylesheet"
+	>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="page-shell">
+		<header class="navbar" id="top">
+			<div class="container nav-inner">
+				<a class="brand" href="#home">Unnoz</a>
+				<button class="menu-toggle" type="button" aria-expanded="false" aria-label="Open navigation menu">
+					<span></span>
+					<span></span>
+				</button>
+				<nav class="nav-links" aria-label="Primary navigation">
+					<a href="#home">Home</a>
+					<a href="#skills">Education</a>
+					<a href="#projects">Projects</a>
+					<a href="#extracurricular">Activities</a>
+					<a href="#contact">Contact</a>
+				</nav>
+			</div>
+		</header>
+		<div class="scroll-progress" aria-hidden="true">
+			<span class="scroll-progress-bar" id="scrollProgressBar"></span>
+		</div>
+
+		<main>
+			<section class="about about-home section" id="home">
+				<div class="container home-shell">
+					<div class="home-copy reveal">
+						<p class="home-kicker">Hello, I'm</p>
+						<h1>Unnati Gaikwad</h1>
+						<p class="home-role">AI & Data Science Student</p>
+						<p class="home-summary">As an AI & Data Science student, I have a strong interest in combining
+technology with design to create simple, effective solutions.I enjoy exploring how technology can solve real-world problems. Along with academics, I am an active member of the YI Club, where I get opportunities to learn, collaborate, and grow my leadership skills.</p>
+						<div class="hero-actions about-actions">
+							<a class="button button-primary" href="#projects">View Projects</a>
+							<a class="button button-secondary" href="#contact">Let's Talk</a>
+						</div>
+						
+					</div>
+					<div class="home-profile reveal reveal-delay">
+						<div class="profile-card glass-card">
+							<img
+								class="home-photo"
+								src="myphoto.jpg"
+								alt="Portrait of Unnati"
+							>
+
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="education section" id="skills">
+				<div class="container section-heading reveal">
+					<p class="eyebrow">EDUCATION</p>
+					<h2>My academic journey and qualifications.</h2>
+				</div>
+				<div class="container skills-grid">
+					<article class="skill-card glass-card reveal">
+						<span class="skill-icon">01</span>
+						<h3>SSC BOARDS</h3>
+						<p>Percentage- 89.76%.</p>
+					</article>
+					<article class="skill-card glass-card reveal reveal-delay">
+						<span class="skill-icon">02</span>
+						<h3>HSC BOARDS</h3>
+						<p>Percentage- 83.45%.</p>
+					</article>
+					<article class="skill-card glass-card reveal reveal-delay-2">
+						<span class="skill-icon">03</span>
+						<h3>MHT-CET EXAMINATION</h3>
+						<p>Percentage- 94.00%.</p>
+					</article>
+					<article class="skill-card glass-card reveal">
+						<span class="skill-icon">04</span>
+						<h3>SITEE EXAMINATION</h3>
+						<p>Percentage- 96.80%.</p>
+					</article>
+				</div>
+			</section>
+
+			<section class="projects section" id="projects">
+				<div class="container section-heading reveal">
+					<p class="eyebrow">Projects</p>
+					<h2>Selected work with strong visual identity.</h2>
+				</div>
+				<div class="container projects-grid">
+					<article class="project-card reveal">
+						<div class="project-surface gradient-surface-a">
+							<div class="project-overlay">
+								<p>Library Management System</p>
+								<h3>
+Enabled users to rent, buy, and return books easily.
+Added user authentication for secure access.
+
+</h3>
+								<a href="#contact">Discuss a similar project</a>
+							</div>
+						</div>
+					</article>
+					<article class="project-card reveal reveal-delay">
+						<div class="project-surface gradient-surface-b">
+							<div class="project-overlay">
+								<p>Interactive Chatbot</p>
+								<h3>Implemented context-based responses for natural interactions.
+Added custom prompts and input validation for accuracy</h3>
+								<a href="#contact">Discuss a similar project</a>
+							</div>
+						</div>
+					</article>
+					<article class="project-card reveal reveal-delay-2">
+						<div class="project-surface gradient-surface-c">
+							<div class="project-overlay">
+								<p>EcoLoop AI</p>
+								<h3>AI-Powered Sustainable Living Companion Unified Platform for Responsible Consumption & Production</h3>
+								<a href="#contact">Discuss a similar project</a>
+							</div>
+						</div>
+					</article>
+				</div>
+			</section>
+
+			<section class="section" id="extracurricular">
+				<div class="container section-heading reveal">
+					<p class="eyebrow">Certification</p>
+					<h2>Activities and achievements </h2>
+				</div>
+				<div class="container extracurricular-grid">
+					<article class="skill-card glass-card extracurricular-card reveal">
+						<span class="skill-icon">01</span>
+						<h3>Google Cloud Arcade Facilitator Program
+</h3>
+						<p>
+							Achieved Milestone 3 in Google Cloud Arcade.
+Earned multiple Google Cloud Skill Badges through hands-on labs
+and challenges.
+.
+						
+							
+						</p>
+					</article>
+				</div>
+			</section>
+
+			<section class="contact section" id="contact">
+				<div class="container contact-shell glass-card reveal">
+					<div class="contact-copy">
+						<p class="eyebrow">Contact</p>
+						<h2>Have a concept worth building well?</h2>
+						<p>
+							Share your idea, timeline, or current challenge. I will get back with a thoughtful response
+							and a practical direction for the next step.
+						</p>
+					</div>
+					<form class="contact-form" id="contactForm">
+						<label>
+							Name
+							<input type="text" name="name" placeholder="Your name" required>
+						</label>
+						<label>
+							Email
+							<input type="email" name="email" placeholder="you@example.com" required>
+						</label>
+						<label>
+							Project Details
+							<textarea name="message" rows="5" placeholder="Tell me about your project" required></textarea>
+						</label>
+						<button class="button button-primary" type="submit">Send Message</button>
+						<p class="form-status" id="formStatus" aria-live="polite"></p>
+					</form>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer">
+			<div class="container footer-inner">
+				<p>© <span id="year"></span> Unnoz. Crafted with a modern minimal aesthetic.</p>
+				<a href="#home">Back to top</a>
+			</div>
+		</footer>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
